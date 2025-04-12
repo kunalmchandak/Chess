@@ -4,7 +4,7 @@ A Python-based chess game with AI opponent support, built using **Pygame**. The 
 
 ---
 
-## 📌 Features
+## Features
 - Play **human vs. human** or **human vs. AI**.
 - AI uses **Negamax with Alpha-Beta pruning** for better performance.
 - Supports **legal chess moves, castling, en passant, and pawn promotion**.
@@ -13,7 +13,7 @@ A Python-based chess game with AI opponent support, built using **Pygame**. The 
 
 ---
 
-## ▶️ How to Run the Game
+## How to Run the Game
 ### **1️⃣ Install Dependencies**
 Ensure you have **Python** installed, then install **Pygame**:
 ```bash
@@ -27,7 +27,7 @@ python ChessMain.py
 
 ---
 
-## 🎮 Configuring AI and Human Players
+## Configuring AI and Human Players
 By default, both players are **human-controlled**. You can enable AI for **one or both players**.
 
 In **ChessMain.py**, find these lines:
@@ -54,7 +54,7 @@ Change them to:
 
 ---
 
-## 🧠 How the AI Works
+## How the AI Works
 The AI uses **Negamax with Alpha-Beta Pruning**, which:
 1. **Searches possible moves** up to a certain depth.
 2. **Prunes unnecessary branches** to speed up decisions.
@@ -67,19 +67,19 @@ DEPTH = 3  # Increase for stronger AI, decrease for faster but weaker AI
 
 ---
 
-## 🔄 Controls
+## Controls
 - **Move pieces:** Click on a piece, then click on a valid destination square.
 - **Undo last move:** Press `Z`.
 - **Reset game:** Press `R`.
 
 ---
 
-## 📜 License
+## License
 This project is open-source and available for free use and modification.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 If you’d like to contribute or improve the AI, feel free to fork the repository and submit a pull request!
 
 
